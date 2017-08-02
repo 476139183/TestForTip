@@ -16,6 +16,8 @@
 		099C05EE1D25050B00D010A8 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C05ED1D25050B00D010A8 /* ____Tests.m */; };
 		099C05F91D25050B00D010A8 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C05F81D25050B00D010A8 /* ____UITests.m */; };
 		099C06081D2506AA00D010A8 /* KeywordListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C06071D2506AA00D010A8 /* KeywordListView.m */; };
+		09AD0EFE1E8ABC7300474AFA /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD0EFD1E8ABC7300474AFA /* Father.m */; };
+		09AD0F0A1E8AC12100474AFA /* Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD0F091E8AC12100474AFA /* Sark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		099C05FA1D25050B00D010A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C06061D2506AA00D010A8 /* KeywordListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeywordListView.h; sourceTree = "<group>"; };
 		099C06071D2506AA00D010A8 /* KeywordListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeywordListView.m; sourceTree = "<group>"; };
+		09AD0EFC1E8ABC7300474AFA /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		09AD0EFD1E8ABC7300474AFA /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		09AD0F081E8AC12100474AFA /* Sark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sark.h; sourceTree = "<group>"; };
+		09AD0F091E8AC12100474AFA /* Sark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				099C05DA1D25050B00D010A8 /* ViewController.m */,
 				099C06061D2506AA00D010A8 /* KeywordListView.h */,
 				099C06071D2506AA00D010A8 /* KeywordListView.m */,
+				09AD0EFC1E8ABC7300474AFA /* Father.h */,
+				09AD0EFD1E8ABC7300474AFA /* Father.m */,
+				09AD0F081E8AC12100474AFA /* Sark.h */,
+				09AD0F091E8AC12100474AFA /* Sark.m */,
 				099C05DC1D25050B00D010A8 /* Main.storyboard */,
 				099C05DF1D25050B00D010A8 /* Assets.xcassets */,
 				099C05E11D25050B00D010A8 /* LaunchScreen.storyboard */,
@@ -277,8 +287,10 @@
 			files = (
 				099C06081D2506AA00D010A8 /* KeywordListView.m in Sources */,
 				099C05DB1D25050B00D010A8 /* ViewController.m in Sources */,
+				09AD0F0A1E8AC12100474AFA /* Sark.m in Sources */,
 				099C05D81D25050B00D010A8 /* AppDelegate.m in Sources */,
 				099C05D51D25050B00D010A8 /* main.m in Sources */,
+				09AD0EFE1E8ABC7300474AFA /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +518,7 @@
 				099C05FF1D25050B00D010A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		099C06001D25050B00D010A8 /* Build configuration list for PBXNativeTarget "测试标签Tests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				099C06021D25050B00D010A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		099C06031D25050B00D010A8 /* Build configuration list for PBXNativeTarget "测试标签UITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +536,7 @@
 				099C06051D25050B00D010A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

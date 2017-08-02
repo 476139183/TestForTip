@@ -16,41 +16,41 @@
     CGSize  fitSize;
     UIColor *backgroundColor;
 }
-@property(weak, nonatomic) id <KeywordTagListDelegate> tagDelegate;
+@property (weak, nonatomic) id <KeywordTagListDelegate> tagDelegate;
 
 /// 是否只view<而无点击事件>
-@property(assign, nonatomic) BOOL viewOnly;
+@property (assign, nonatomic) BOOL viewOnly;
 /// 是否显示菜单
-@property(assign, nonatomic) BOOL showTagMenu;
+@property (assign, nonatomic) BOOL showTagMenu;
 /// 容器
-@property(strong, nonatomic) UIView *containerView;
+@property (strong, nonatomic) UIView *containerView;
 /// 数据源
-@property(strong, nonatomic) NSArray *textArray;
-@property(strong, nonatomic) UIColor *highlightedBackgroundColor;
+@property (strong, nonatomic) NSArray *textArray;
+@property (strong, nonatomic) UIColor *highlightedBackgroundColor;
 /// listView高度是否自适应
-@property(assign, nonatomic) BOOL automaticResize;
+@property (assign, nonatomic) BOOL automaticResize;
 /// 设置tag的font
-@property(strong, nonatomic) UIFont *font;
+@property (strong, nonatomic) UIFont *font;
 /// 设置tag和tag的水平间距
-@property(assign, nonatomic) CGFloat labelMargin;
+@property (assign, nonatomic) CGFloat labelMargin;
 /// tag和tag的垂直间距
-@property(assign, nonatomic) CGFloat bottomMargin;
+@property (assign, nonatomic) CGFloat bottomMargin;
 /// text与tag的左右水平间距
-@property(assign, nonatomic) CGFloat horizontalPadding;
+@property (assign, nonatomic) CGFloat horizontalPadding;
 /// text与tag的上下垂直间距
-@property(assign, nonatomic) CGFloat verticalPadding;
+@property (assign, nonatomic) CGFloat verticalPadding;
 /// tag的最小宽度
-@property(assign, nonatomic) CGFloat minimumWidth;
+@property (assign, nonatomic) CGFloat minimumWidth;
 /// tag的圆角
-@property(assign, nonatomic) CGFloat cornerRadius;
+@property (assign, nonatomic) CGFloat cornerRadius;
 /// tag的边框颜色
-@property(strong, nonatomic) UIColor *borderColor;
+@property (strong, nonatomic) UIColor *borderColor;
 /// tag的边框宽度
-@property(assign, nonatomic) CGFloat borderWidth;
+@property (assign, nonatomic) CGFloat borderWidth;
 /// tag的文本颜色
-@property(strong, nonatomic) UIColor *textColor;
-@property(strong, nonatomic) UIColor *textShadowColor;
-@property(assign, nonatomic) CGSize textShadowOffset;
+@property (strong, nonatomic) UIColor *textColor;
+@property (strong, nonatomic) UIColor *textShadowColor;
+@property (assign, nonatomic) CGSize textShadowOffset;
 
 - (void)setTagBackgroundColor:(UIColor *)color;
 
